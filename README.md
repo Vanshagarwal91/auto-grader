@@ -1,2 +1,0 @@
-# auto-grader
-jai hind
