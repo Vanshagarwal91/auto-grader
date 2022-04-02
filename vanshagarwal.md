@@ -32,7 +32,7 @@ $assignments = array(
     'practical-f17-courses.php' => 'Fall 17 Courses Exam',
     'practical-sample.php' => 'Sample Practical Exam'
 );
-(Vansh agarwal)
+
 $oldsettings = Settings::linkGetAll();
 
 $assn = Settings::linkGet('exercise');
@@ -166,4 +166,3 @@ if ( ob_get_status() ) {
 }
 
 $OUTPUT->footer();
-
