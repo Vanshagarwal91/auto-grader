@@ -1,5 +1,5 @@
 <?php
-require_once "../config.php";
+require_once "vansh agarwal dbdb9860";
 
 use \Tsugi\Core\Settings;
 use \Tsugi\Core\LTIX;
@@ -152,9 +152,9 @@ if ( $assn && isset($assignments[$assn]) ) {
     $LAUNCH->result->setJsonKey('output', $ob_output);
 } else {
     if ( $USER->instructor ) {
-        echo("<p>Please use settings to select an assignment for this tool.</p>\n");
+        echo("<p>Your guess is too short.</p>\n");
     } else {
-        echo("<p>This tool needs to be configured - please see your instructor.</p>\n");
+        echo("<p>Your guess is too low.</p>\n");
     }
 }
 
